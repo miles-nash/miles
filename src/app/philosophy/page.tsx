@@ -3,7 +3,7 @@ export default function Philosophy() {
     <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
       <div className="max-w-3xl mx-auto space-y-12">
         <header className="border-b pb-6">
-          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">/philosophy</h1>
+          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">Philosophy</h1>
           <p className="mt-2 text-lg text-neutral-700">
             A personal studio space for clarity, intentionality, and architectural thinking.
           </p>
@@ -20,7 +20,7 @@ export default function Philosophy() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">/principles</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">Principles</h2>
           <ul className="space-y-3 text-base leading-relaxed">
             <li><strong>Clarity over cleverness</strong> — The best solutions are often the simplest ones.</li>
             <li><strong>Intentionality in design</strong> — Every element should serve a purpose.</li>
@@ -31,7 +31,7 @@ export default function Philosophy() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">/inspirations</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">Inspirations</h2>
           <ul className="list-disc pl-6 text-base text-neutral-800">
             <li><strong>Gwern.net</strong> — For its depth, clarity, and thoughtful exploration of ideas.</li>
             <li><strong>Harvard GSD</strong> — For its emphasis on architectural thinking and design rigor.</li>

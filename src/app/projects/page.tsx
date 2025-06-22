@@ -3,7 +3,7 @@ export default function Projects() {
     <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
       <div className="max-w-3xl mx-auto space-y-12">
         <header className="border-b pb-6">
-          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">/projects</h1>
+          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">Projects</h1>
           <p className="mt-2 text-lg text-neutral-700">
             Selected highlights from my journey building at the intersection of hardware, systems, and spirit.
           </p>

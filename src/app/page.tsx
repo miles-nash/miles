@@ -33,19 +33,26 @@ export default function Home() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">/now</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">Now</h2>
           <p className="text-base leading-relaxed">
             Currently in Seattle, building cloud infrastructure at Microsoft. Reading "Stranger in a Strange Land". Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
           </p>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">/projects</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">Projects</h2>
           <ul className="list-disc pl-6 text-base text-neutral-800">
             <li><strong>People's Prompt</strong>: A creative AI zine & community project exploring public sentiment on AI.</li>
             <li><strong>Hovercraft Hackathon</strong>: Built a working hovercraft at Lockheed Martin, winning first place.</li>
             <li><strong>Hands-Free Copilot</strong>: An experimental desktop copilot with AI-driven task automation.</li>
           </ul>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-3xl font-semibold tracking-tight">Timeline</h2>
+          <p className="text-base leading-relaxed">
+            From early maker days in Colorado to building at Tesla and Microsoft. <a href="/timeline" className="underline hover:text-neutral-800">View my journey →</a>
+          </p>
         </section>
 
         <footer className="border-t pt-6 text-sm text-neutral-500">

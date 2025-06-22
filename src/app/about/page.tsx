@@ -3,7 +3,7 @@ export default function About() {
     <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
       <div className="max-w-3xl mx-auto space-y-12">
         <header className="border-b pb-6">
-          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">/about</h1>
+          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">About</h1>
         </header>
 
         <section className="space-y-6">
@@ -17,7 +17,7 @@ export default function About() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">/philosophy</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">Philosophy</h2>
           <blockquote className="border-l-4 border-neutral-300 pl-4 italic text-lg">
             "Form follows clarity."
           </blockquote>
