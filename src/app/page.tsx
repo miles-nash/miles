@@ -10,8 +10,7 @@ export default function Home() {
             Miles Nash
           </h1>
           <p className="mt-2 text-lg text-neutral-700">
-            Designer and researcher exploring the intersection of technology, 
-            human experience, and the built environment.
+            Technical Program Manager. Systems Thinker. Builder.
           </p>
         </header>
 
@@ -29,20 +28,21 @@ export default function Home() {
         </div>
 
         <section className="space-y-4">
-          <Link href="/timeline" className="block no-underline text-black">
-            <h2 className="text-3xl font-semibold tracking-tight">/now</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">/now</h2>
+          <p className="w-3/4 font-mono text-base leading-relaxed">
+            Currently in Seattle, building cloud infrastructure at Microsoft. Reading "Stranger in a Strange Land". Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <Link href="/about" className="block no-underline text-black">
+            <h2 className="text-3xl font-semibold tracking-tight">/about</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
           <Link href="/timeline" className="block no-underline text-black">
             <h2 className="text-3xl font-semibold tracking-tight">/timeline</h2>
-          </Link>
-        </section>
-
-        <section className="space-y-4">
-          <Link href="/about" className="block no-underline text-black">
-            <h2 className="text-3xl font-semibold tracking-tight">/about</h2>
           </Link>
         </section>
 
