@@ -45,3 +45,105 @@
     }
   }
 }
+
+@layer components {
+  .fractal-tree {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fractal-tree::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    height: 40px;
+    background: #4a7c59;
+    transform: translateX(-50%);
+  }
+  
+  .fractal-tree::after {
+    content: '';
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid #4a7c59;
+    transform: translateX(-50%);
+  }
+  
+  .fractal-tree .branch {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 2px;
+    height: 30px;
+    background: #4a7c59;
+    transform-origin: bottom center;
+  }
+  
+  .fractal-tree .branch:nth-child(1) {
+    transform: translateX(-50%) rotate(-30deg);
+  }
+  
+  .fractal-tree .branch:nth-child(2) {
+    transform: translateX(-50%) rotate(30deg);
+  }
+  
+  .fractal-tree .branch::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 15px solid #4a7c59;
+    transform: translateX(-50%);
+  }
+  
+  .fractal-tree .branch .sub-branch {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 1px;
+    height: 20px;
+    background: #4a7c59;
+    transform-origin: top center;
+  }
+  
+  .fractal-tree .branch:nth-child(1) .sub-branch:nth-child(1) {
+    transform: translateX(-50%) rotate(-20deg);
+  }
+  
+  .fractal-tree .branch:nth-child(1) .sub-branch:nth-child(2) {
+    transform: translateX(-50%) rotate(20deg);
+  }
+  
+  .fractal-tree .branch:nth-child(2) .sub-branch:nth-child(1) {
+    transform: translateX(-50%) rotate(-20deg);
+  }
+  
+  .fractal-tree .branch:nth-child(2) .sub-branch:nth-child(2) {
+    transform: translateX(-50%) rotate(20deg);
+  }
+  
+  .fractal-tree .branch .sub-branch::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 8px solid #4a7c59;
+    transform: translateX(-50%);
+  }
+}

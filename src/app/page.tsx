@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import FractalTree from '@/components/FractalTree';
 
 export default function Home() {
   return (
@@ -14,26 +15,13 @@ export default function Home() {
           </p>
         </header>
 
-        {/* Simple ASCII Character */}
-        <div className="py-8 text-center">
-          <pre className="text-sm text-neutral-600 font-mono leading-tight">
-{`    /\\
-   /  \\
-  /____\\
- /      \\
-/        \\
-|  🔥   |
-|        |
- \\______/
-    ||
-    ||
-   /  \\
-  /____\\`}
-          </pre>
+        {/* Fractal Tree */}
+        <div className="py-8 flex justify-center">
+          <FractalTree />
         </div>
 
         {/* Quote */}
-        <div className="py-6 border-l-4 border-neutral-200 pl-6">
+        <div className="py-6 text-center">
           <blockquote className="text-lg italic text-neutral-700 leading-relaxed">
             "The best way to predict the future is to invent it."
           </blockquote>
@@ -41,32 +29,32 @@ export default function Home() {
         </div>
 
         <section className="space-y-4">
-          <Link href="/timeline" className="block no-underline">
-            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/now</h2>
+          <Link href="/timeline" className="block no-underline text-black">
+            <h2 className="text-3xl font-semibold tracking-tight">/now</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
-          <Link href="/timeline" className="block no-underline">
-            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/timeline</h2>
+          <Link href="/timeline" className="block no-underline text-black">
+            <h2 className="text-3xl font-semibold tracking-tight">/timeline</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
-          <Link href="/about" className="block no-underline">
-            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/about</h2>
+          <Link href="/about" className="block no-underline text-black">
+            <h2 className="text-3xl font-semibold tracking-tight">/about</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
-          <Link href="/projects" className="block no-underline">
-            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/projects</h2>
+          <Link href="/projects" className="block no-underline text-black">
+            <h2 className="text-3xl font-semibold tracking-tight">/projects</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
-          <Link href="/philosophy" className="block no-underline">
-            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/philosophy</h2>
+          <Link href="/philosophy" className="block no-underline text-black">
+            <h2 className="text-3xl font-semibold tracking-tight">/philosophy</h2>
           </Link>
         </section>
 
