@@ -1,0 +1,52 @@
+
+Miles Nash — Professional & Personal Development Timeline
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧒 Early Spark (Middle & High School | Colorado)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Attended a Maker Faire at age 12 — sparked a lifelong curiosity with how things work.
+• Mowed lawns to fund a 3D printer → launched a fidget spinner business at school (shut down by dean).
+• Founded high school robotics club → scaled to 30+ members, raised $12K, podiumed at State.
+• Won Lockheed Martin hovercraft hackathon → led to 3 consecutive summer internships in advanced systems.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎓 UC Berkeley — EECS Major (2 years)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Studied Electrical Engineering & Computer Science — focused on systems, hardware/software integration, and ethics.
+• Took courses like EE105 (Analog Circuits), EE151 (Digital IC Design), CS168 (Networking), EECS149 (Embedded Systems).
+• Notable project: Built full TCP stack in Python using POX framework — implemented out-of-order reassembly, RTO per RFC 6298.
+• Developed a campus zine (*People’s Prompt*) to spark public dialogue on AI’s societal impact.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚗 Tesla — Hardware TPM (1-year break from Berkeley)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Managed wireless entry systems for Model Y — interfaced across software, hardware, supply chain.
+• Owned program execution across teams — gained deep insight into high-stakes manufacturing & iterative development at scale.
+• Saw the dark side of speed: innovation clashing with worker well-being and systemic inequities.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔁 Return to Berkeley (Final Year)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Returned for community and exploration — balanced technical rigor with reflection.
+• Took ENGIN 157 (Engineering, Environment & Society) — explored tech’s human and environmental implications.
+• Read widely, wrote freely, built with intention.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+☁️ Microsoft — TPM Intern (Current)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Intern on Cloud Operations & Innovation team — working on infra-scale AI-native tools and systems.
+• Experimenting with internal AI workflows and developer efficiency at scale.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧪 Personal Projects & Identity Work
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• People’s Prompt → Creative AI zine & public media project. (peoplesprompt.org)
+• Hands-Free Copilot → Local voice-powered AI agent for task automation.
+• Personal Site → Digital studio inspired by Gwern.net, GSD, and MIT Media Lab — in development.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏁 Ongoing Themes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Making the abstract tangible.  
+→ Finding clarity in ambiguity.  
+→ Navigating systems — technical, social, and philosophical — with curiosity and courage.

@@ -1,58 +1,73 @@
-import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
       <div className="max-w-3xl mx-auto space-y-12">
         <header className="border-b pb-6">
-          <h1 className="text-5xl md:text-7xl font-semibold leading-tight">
+          <h1 className="text-4xl md:text-6xl font-light leading-tight">
             Miles Nash
           </h1>
           <p className="mt-2 text-lg text-neutral-700">
-            Finding clarity in ambiguity — building at the intersection of hardware, systems, and spirit.
+            Designer and researcher exploring the intersection of technology, 
+            human experience, and the built environment.
           </p>
         </header>
 
-        {/* ASCII Art */}
-        <section className="space-y-4">
-          <pre className="font-mono text-xs md:text-sm text-neutral-800 text-center">
-            {`    ╭─────────────────╮
-    │  ╭─────────╮  │
-    │  │  ╭───╮  │  │
-    │  │  │ • │  │  │
-    │  │  ╰───╯  │  │
-    │  ╰─────────╯  │
-    │     ╱│╲      │
-    │    ╱ │ ╲     │
-    │   ╱  │  ╲    │
-    │  ╱   │   ╲   │
-    │ ╱    │    ╲  │
-    │╱     │     ╲ │
-    ╰─────────────────╯`}
+        {/* Simple ASCII Character */}
+        <div className="py-8 text-center">
+          <pre className="text-sm text-neutral-600 font-mono leading-tight">
+{`    /\\
+   /  \\
+  /____\\
+ /      \\
+/        \\
+|  🔥   |
+|        |
+ \\______/
+    ||
+    ||
+   /  \\
+  /____\\`}
           </pre>
+        </div>
+
+        {/* Quote */}
+        <div className="py-6 border-l-4 border-neutral-200 pl-6">
+          <blockquote className="text-lg italic text-neutral-700 leading-relaxed">
+            "The best way to predict the future is to invent it."
+          </blockquote>
+          <cite className="block mt-2 text-sm text-neutral-500">— Alan Kay</cite>
+        </div>
+
+        <section className="space-y-4">
+          <Link href="/timeline" className="block no-underline">
+            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/now</h2>
+          </Link>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">Now</h2>
-          <p className="text-base leading-relaxed">
-            Currently in Seattle, building cloud infrastructure at Microsoft. Reading "Stranger in a Strange Land". Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
-          </p>
+          <Link href="/timeline" className="block no-underline">
+            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/timeline</h2>
+          </Link>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">Projects</h2>
-          <ul className="list-disc pl-6 text-base text-neutral-800">
-            <li><strong>People's Prompt</strong>: A creative AI zine & community project exploring public sentiment on AI.</li>
-            <li><strong>Hovercraft Hackathon</strong>: Built a working hovercraft at Lockheed Martin, winning first place.</li>
-            <li><strong>Hands-Free Copilot</strong>: An experimental desktop copilot with AI-driven task automation.</li>
-          </ul>
+          <Link href="/about" className="block no-underline">
+            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/about</h2>
+          </Link>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">Timeline</h2>
-          <p className="text-base leading-relaxed">
-            From early maker days in Colorado to building at Tesla and Microsoft. <a href="/timeline" className="underline hover:text-neutral-800">View my journey →</a>
-          </p>
+          <Link href="/projects" className="block no-underline">
+            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/projects</h2>
+          </Link>
+        </section>
+
+        <section className="space-y-4">
+          <Link href="/philosophy" className="block no-underline">
+            <h2 className="text-2xl font-medium tracking-tight text-black focus:font-semibold focus:outline-none">/philosophy</h2>
+          </Link>
         </section>
 
         <footer className="border-t pt-6 text-sm text-neutral-500">
@@ -60,5 +75,6 @@ export default function Home() {
         </footer>
       </div>
     </main>
-  );
+  )
 }
+

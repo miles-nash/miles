@@ -1,0 +1,72 @@
+// pages/philosophy.tsx
+import React from "react";
+
+export default function Philosophy() {
+  return (
+    <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
+      <div className="max-w-3xl mx-auto space-y-10">
+        <header className="space-y-2 border-b pb-4">
+          <h1 className="text-4xl font-light leading-tight">/philosophy</h1>
+          <p className="text-neutral-700 font-sans">
+            A reflection on design, identity, and intentionality.
+          </p>
+        </header>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-medium font-sans">Purpose</h2>
+          <p>
+            This site is a personal studio space — a digital extension of how I think, build, and communicate. It’s here to introduce who I am, express my design and life philosophies, and showcase the work I’ve created so far.
+          </p>
+          <p>
+            I believe in clarity, intentionality, and tools that endure. This space reflects my personality: focused, experimental, understated.
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-medium font-sans">Core Principles</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Content over container:</strong> Typography leads. Layout serves ideas — never distracts.</li>
+            <li><strong>Editorial, not bloggy:</strong> Structure is archival and timeless, not chronological or reactive.</li>
+            <li><strong>Minimal, not sterile:</strong> White space breathes. Serif fonts bring warmth. Design is intentional, not flashy.</li>
+            <li><strong>Architectural thinking:</strong> Layouts mirror galleries or studio walls — with rhythm, proportion, and restraint.</li>
+            <li><strong>Legible evolution:</strong> The site grows over time like a digital sketchbook or working archive.</li>
+            <li><strong>No artificial urgency:</strong> No feeds, likes, comments, or timestamps unless meaningful. It’s calm by default.</li>
+          </ul>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-medium font-sans">Visual & Typographic Identity</h2>
+          <p>
+            Fonts are chosen for readability and personality:
+          </p>
+          <ul className="list-disc pl-6">
+            <li><strong>Source Serif 4:</strong> For essays and long-form content</li>
+            <li><strong>Inter:</strong> For navigation and UI text</li>
+            <li><strong>IBM Plex Mono:</strong> For code, metadata, and asides</li>
+          </ul>
+          <p>
+            The visual tone borrows from Gwern.net, the editorial clarity of Harvard GSD, and the experimental rigor of the MIT Media Lab.
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-medium font-sans">Why This Exists</h2>
+          <p>
+            I created this site to:
+          </p>
+          <ul className="list-disc pl-6">
+            <li>Introduce myself with clarity and personality</li>
+            <li>Document and showcase the work I've built</li>
+            <li>Share ideas that I want to iterate on publicly</li>
+            <li>Experiment with how information, aesthetics, and systems can blend into a personal OS</li>
+          </ul>
+        </section>
+
+        <footer className="border-t pt-6 text-sm text-neutral-500 font-mono">
+          <p>Built with clarity in mind. Updated when it matters.</p>
+        </footer>
+      </div>
+    </main>
+  );
+}
+

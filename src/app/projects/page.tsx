@@ -1,53 +1,59 @@
 export default function Projects() {
   return (
     <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
-      <div className="max-w-3xl mx-auto space-y-12">
+      <div className="max-w-4xl mx-auto space-y-12">
         <header className="border-b pb-6">
           <h1 className="text-5xl md:text-7xl font-semibold leading-tight">Projects</h1>
           <p className="mt-2 text-lg text-neutral-700">
-            Selected highlights from my journey building at the intersection of hardware, systems, and spirit.
+            Recent work and research explorations.
           </p>
         </header>
 
-        <section className="space-y-8">
-          <div className="space-y-4">
-            <h2 className="text-3xl font-semibold tracking-tight">People's Prompt</h2>
-            <p className="text-base leading-relaxed">
-              A creative AI zine & community project exploring public sentiment on AI.
-            </p>
-            <p className="text-sm text-neutral-600 font-mono">
-              → <a href="https://peoplesprompt.org" className="underline hover:text-neutral-800">peoplesprompt.org</a>
-            </p>
-          </div>
+        {/* Quote */}
+        <div className="py-6 border-l-4 border-neutral-200 pl-6">
+          <blockquote className="text-lg italic text-neutral-700 leading-relaxed">
+            "Build tools, not empires."
+          </blockquote>
+          <cite className="block mt-2 text-sm text-neutral-500">— Unknown</cite>
+        </div>
 
-          <div className="space-y-4">
-            <h2 className="text-3xl font-semibold tracking-tight">Hovercraft Hackathon</h2>
-            <p className="text-base leading-relaxed">
-              Built a working hovercraft at Lockheed Martin, winning first place and earning three summer internships.
-            </p>
-          </div>
+        <div className="space-y-12">
+          <section className="space-y-6">
+            <h2 className="text-3xl font-semibold tracking-tight">Computational Design</h2>
+            <div className="space-y-4">
+              <div className="border-l-4 border-neutral-200 pl-6">
+                <h3 className="text-xl font-medium">Generative Architecture Tools</h3>
+                <p className="text-lg leading-relaxed text-neutral-700">
+                  Developing computational design tools that help architects explore form and function through algorithmic generation. Focus on human-in-the-loop systems that augment rather than replace creative decision-making.
+                </p>
+              </div>
+            </div>
+          </section>
 
-          <div className="space-y-4">
-            <h2 className="text-3xl font-semibold tracking-tight">High School Robotics Club</h2>
-            <p className="text-base leading-relaxed">
-              Founded and scaled to 30+ members, raised $12K+ funding, podiumed at State in 2 years.
-            </p>
-          </div>
+          <section className="space-y-6">
+            <h2 className="text-3xl font-semibold tracking-tight">Human-Computer Interaction</h2>
+            <div className="space-y-4">
+              <div className="border-l-4 border-neutral-200 pl-6">
+                <h3 className="text-xl font-medium">AI-Native Workflows</h3>
+                <p className="text-lg leading-relaxed text-neutral-700">
+                  Researching how AI can enhance human creativity and productivity in design contexts. Exploring new interaction paradigms that leverage natural language and visual feedback.
+                </p>
+              </div>
+            </div>
+          </section>
 
-          <div className="space-y-4">
-            <h2 className="text-3xl font-semibold tracking-tight">Hands-Free Copilot</h2>
-            <p className="text-base leading-relaxed">
-              An experimental desktop copilot with AI-driven task automation and voice interface.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            <h2 className="text-3xl font-semibold tracking-tight">3D Printing Business</h2>
-            <p className="text-base leading-relaxed">
-              Bootstrapped by mowing lawns; sold hundreds of fidget spinners at school until the dean shut it down.
-            </p>
-          </div>
-        </section>
+          <section className="space-y-6">
+            <h2 className="text-3xl font-semibold tracking-tight">Digital Fabrication</h2>
+            <div className="space-y-4">
+              <div className="border-l-4 border-neutral-200 pl-6">
+                <h3 className="text-xl font-medium">3D Printing Workflows</h3>
+                <p className="text-lg leading-relaxed text-neutral-700">
+                  Developing streamlined workflows for digital fabrication, from design to production. Creating tools that bridge the gap between digital models and physical objects.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
 
         <footer className="border-t pt-6 text-sm text-neutral-500">
           <a href="/" className="hover:underline">← Back home</a>
