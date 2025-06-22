@@ -1,0 +1,49 @@
+# Technical Documentation
+
+## Site Architecture
+- **Framework**: Hugo static site generator
+- **Theme**: Custom minimal theme (minimalstudio)
+- **Typography**: Source Serif 4, Inter, IBM Plex Mono (Google Fonts)
+- **Styling**: Minimal CSS with inline styles for simplicity
+
+## File Structure
+```
+miles-simple-site/
+├── inputs/
+│   ├── SiteContext.txt
+│   ├── Site-overview.pdf
+│   └── technical.txt
+└── site-src/
+    ├── content/
+    │   ├── _index.md (homepage)
+    │   ├── about.md
+    │   ├── experience.md
+    │   ├── projects.md
+    │   ├── reading.md
+    │   ├── viewing.md
+    │   └── philosophy.md
+    ├── layouts/
+    │   └── index.html (custom homepage template)
+    ├── themes/
+    │   └── minimalstudio/
+    │       └── layouts/_default/baseof.html
+    └── hugo.toml (configuration)
+```
+
+## Design Principles
+- Content over container
+- Minimal, not sterile
+- Editorial depth over trendiness
+- Studio rhythm and notebook evolution
+- No artificial urgency
+
+## Development
+- Local server: `hugo server --buildDrafts`
+- Build: `hugo`
+- Output: `public/` directory
+
+## Customization Points
+- ASCII art: Edit `hugo.toml` [params].asciiart
+- Site info: Edit `hugo.toml` [params].name and [params].intro
+- Content: Edit Markdown files in `content/`
+- Styling: Edit `layouts/index.html` and `themes/minimalstudio/layouts/_default/baseof.html` 
