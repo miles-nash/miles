@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto space-y-12">
         <header className="border-b pb-6">
           <h1 className="text-5xl md:text-7xl font-light leading-tight">
-            About Me
+            My Story
           </h1>
           <p className="mt-2 text-lg text-neutral-700">
             A little about my story, my work, and how I see the world.

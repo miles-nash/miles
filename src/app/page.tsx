@@ -1,7 +1,12 @@
+'use client'
+
 import Link from 'next/link'
 import FractalTree from '@/components/FractalTree';
+import { useState } from 'react';
 
 export default function Home() {
+  const [showNowDetails, setShowNowDetails] = useState(false);
+
   return (
     <main className="min-h-screen bg-white text-black font-sans p-6 md:p-16">
       <div className="max-w-3xl mx-auto space-y-12">
@@ -28,33 +33,44 @@ export default function Home() {
         </div>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-light tracking-tight text-black">/now</h2>
-          <p className="w-3/4 font-mono text-base leading-relaxed">
-            Currently in Seattle, building cloud infrastructure at Microsoft. Reading "Stranger in a Strange Land". Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
-          </p>
+          <div 
+            onClick={() => setShowNowDetails(!showNowDetails)}
+            className="cursor-pointer group"
+          >
+            <h2 className="text-3xl font-light tracking-tight text-black group-hover:text-neutral-600 transition-colors">
+              /now
+            </h2>
+          </div>
+          {showNowDetails && (
+            <div className="mt-4 transition-all duration-300 ease-in-out">
+              <p className="w-3/4 font-mono text-base leading-relaxed">
+                Currently in Seattle, building cloud infrastructure at Microsoft. Reading "Stranger in a Strange Land". Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
+              </p>
+            </div>
+          )}
         </section>
 
         <section className="space-y-4">
           <Link href="/about" className="block no-underline text-black hover:no-underline">
-            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/about</h2>
+            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/my story</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
-          <Link href="/timeline" className="block no-underline text-black hover:no-underline">
-            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/timeline</h2>
+          <Link href="/favorites" className="block no-underline text-black hover:no-underline">
+            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/inputs</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
           <Link href="/projects" className="block no-underline text-black hover:no-underline">
-            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/projects</h2>
+            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/outputs</h2>
           </Link>
         </section>
 
         <section className="space-y-4">
           <Link href="/philosophy" className="block no-underline text-black hover:no-underline">
-            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/philosophy</h2>
+            <h2 className="text-3xl font-light tracking-tight text-black hover:text-black">/principles</h2>
           </Link>
         </section>
 

@@ -39,7 +39,7 @@ export default function Philosophy() {
         {/* Simple header */}
         <div className="text-center mb-20">
           <h1 className="text-5xl md:text-7xl font-light leading-none tracking-tight mb-6 text-black">
-            philosophy
+            principles
           </h1>
         </div>
 
