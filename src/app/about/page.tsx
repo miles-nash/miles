@@ -18,7 +18,7 @@ export default function About() {
             <h2 className="text-3xl font-medium tracking-tight">My Story</h2>
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
-                My journey into technology began with a simple desire to understand how things work. This led me from high school robotics to UC Berkeley, where I'm studying Electrical Engineering and Computer Science. I've worked on guidance systems for satellites at Lockheed Martin and next-generation wireless hardware at Tesla, learning that the most rewarding problems lie at the intersection of hardware, software, and human experience.
+                My journey into technology began with a simple desire to understand how things work. This led me from high school robotics to UC Berkeley, where I&apos;m studying Electrical Engineering and Computer Science. I&apos;ve worked on guidance systems for satellites at Lockheed Martin and next-generation wireless hardware at Tesla, learning that the most rewarding problems lie at the intersection of hardware, software, and human experience.
               </p>
             </div>
           </section>
@@ -36,7 +36,7 @@ export default function About() {
             <h2 className="text-3xl font-medium tracking-tight">Now</h2>
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
-                Currently in Seattle, building cloud infrastructure at Microsoft. Reading "Stranger in a Strange Land". Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
+                Currently in Seattle, building cloud infrastructure at Microsoft. Reading &ldquo;Stranger in a Strange Land&rdquo;. Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
               </p>
             </div>
           </section>

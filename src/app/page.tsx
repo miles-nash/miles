@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div>
             <blockquote className="text-base italic text-neutral-600 leading-relaxed text-center">
-              "The best way to predict the future is to invent it."
+              &ldquo;The best way to predict the future is to invent it.&rdquo;
             </blockquote>
             <cite className="block mt-2 text-sm text-neutral-500 text-center">— Alan Kay</cite>
           </div>

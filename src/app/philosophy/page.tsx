@@ -129,7 +129,7 @@ export default function Philosophy() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            You can't connect the dots looking forward. You can only connect them looking backward.
+            You can&apos;t connect the dots looking forward. You can only connect them looking backward.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">

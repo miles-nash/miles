@@ -19,7 +19,7 @@ export default function TeslaWireless() {
         <section className="space-y-6">
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed">
-              Led a cross-functional team of 15 to design, manufacture, and certify a new wireless hardware system. 
+              Led the development of Tesla&apos;s next-generation passive entry system, enabling seamless vehicle access through advanced wireless communication protocols. 
               Managed DFM, prototype builds, and supplier coordination across three continents, and helped implement 
               a significant cost-reduction.
             </p>
