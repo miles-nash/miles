@@ -29,6 +29,11 @@ export default function Projects() {
       link: "/projects/nasa-hunch"
     },
     {
+      title: "People's Prompt",
+      link: "https://www.peoplesprompt.org/",
+      external: true
+    },
+    {
       title: "Electronic Lifeguard Arm Band",
       link: "https://www.hackster.io/milesnash_/electronic-lifeguard-arm-band-4d5035",
       external: true
@@ -72,7 +77,7 @@ export default function Projects() {
             Outputs
           </h1>
           <p className="mt-2 text-lg text-neutral-700">
-            Projects, experiments, and things I've built.
+            Projects, experiments, and things I&apos;ve built.
           </p>
         </header>
 

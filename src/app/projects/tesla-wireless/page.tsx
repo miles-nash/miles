@@ -19,7 +19,7 @@ export default function TeslaWireless() {
         <section className="space-y-6">
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed">
-              Led the development of Tesla's next-generation passive entry system, enabling seamless vehicle access through advanced wireless communication protocols. 
+              Led the development of Tesla&apos;s next-generation passive entry system, enabling seamless vehicle access through advanced wireless communication protocols. 
               Managed DFM, prototype builds, and supplier coordination across three continents, and helped implement 
               a significant cost-reduction.
             </p>
@@ -52,7 +52,7 @@ export default function TeslaWireless() {
               Impact
             </h2>
             <p className="font-mono text-sm leading-relaxed">
-              Successfully delivered a new wireless hardware system that met Tesla's high standards for 
+              Successfully delivered a new wireless hardware system that met Tesla&apos;s high standards for 
               performance and reliability. The project demonstrated the ability to manage complex, 
               multi-disciplinary engineering programs at scale.
             </p>

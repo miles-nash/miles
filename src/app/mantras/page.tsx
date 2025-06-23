@@ -65,7 +65,7 @@ export default function Mantras() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Clarity doesn't come from thinking. It comes from doing.
+            Clarity doesn&apos;t come from thinking. It comes from doing.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">

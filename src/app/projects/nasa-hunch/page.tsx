@@ -33,7 +33,7 @@ export default function NasaHunch() {
               <li>Addressed critical challenge of waste disposal in space</li>
               <li>Prototyped mechanical ejection mechanism</li>
               <li>Ensured system reliability in extreme conditions</li>
-              <li>Met NASA's stringent safety and performance requirements</li>
+              <li>Met NASA&apos;s stringent safety and performance requirements</li>
             </ul>
           </div>
 
