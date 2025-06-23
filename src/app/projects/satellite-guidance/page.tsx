@@ -29,11 +29,11 @@ export default function SatelliteGuidance() {
               Technical Implementation
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• Momentum management algorithm development in C++</li>
-              <li>• System modeling and simulation in MATLAB/Simulink</li>
-              <li>• Guidance, Navigation, and Control (GNC) system integration</li>
-              <li>• Real-time software testing and validation</li>
-              <li>• Documentation and requirements traceability</li>
+              <li>Momentum management algorithm development in C++</li>
+              <li>System modeling and simulation in MATLAB/Simulink</li>
+              <li>Guidance, Navigation, and Control (GNC) system integration</li>
+              <li>Real-time software testing and validation</li>
+              <li>Documentation and requirements traceability</li>
             </ul>
           </div>
 
@@ -41,26 +41,9 @@ export default function SatelliteGuidance() {
             <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
               Technologies & Skills
             </h2>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                C++
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                MATLAB
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Simulink
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Aerospace
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                GNC
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Control Systems
-              </span>
-            </div>
+            <p className="font-mono text-sm leading-relaxed">
+              C++, MATLAB, Simulink, Aerospace, GNC, Control Systems
+            </p>
           </div>
 
           <div className="space-y-4">

@@ -8,17 +8,45 @@ export default function About() {
           <h1 className="text-5xl md:text-7xl font-light leading-tight">
             Me
           </h1>
-          <p className="mt-2 text-lg text-neutral-700">
+          <div className="mt-4 space-y-2">
+            <a 
+              href="https://www.linkedin.com/in/miles-nash/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg text-neutral-700 hover:text-black transition-colors underline"
+            >
+              LinkedIn
+            </a>
+            <br />
+            <a 
+              href="https://x.com/milesnash_?s=21" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg text-neutral-700 hover:text-black transition-colors underline"
+            >
+              X (Twitter)
+            </a>
+          </div>
+          <p className="mt-6 text-lg text-neutral-700">
             A little about my story, my work, and how I see the world.
           </p>
         </header>
 
         <div className="space-y-10">
           <section className="space-y-4">
-            <h2 className="text-3xl font-medium tracking-tight">My Story</h2>
+            <h2 className="text-3xl font-medium tracking-tight">Now</h2>
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
-                My journey into technology began with a simple desire to understand how things work. This led me from high school robotics to UC Berkeley, where I&apos;m studying Electrical Engineering and Computer Science. I&apos;ve worked on guidance systems for satellites at Lockheed Martin and next-generation wireless hardware at Tesla, learning that the most rewarding problems lie at the intersection of hardware, software, and human experience.
+                Currently in Seattle, building cloud infrastructure at Microsoft. Reading &ldquo;Stranger in a Strange Land&rdquo;. Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
+              </p>
+            </div>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-3xl font-medium tracking-tight">Previously</h2>
+            <div className="space-y-4 text-lg leading-relaxed">
+              <p>
+                My journey has been a restless pursuit of turning ideas into tangible artifacts, from early robotics projects to designing a TCP/IP stack from scratch. This drive led me to UC Berkeley for Electrical Engineering and Computer Science, where I immersed myself in the worlds of AI and hardware. I thrive at the intersection of ambitious technology and human narrative—seeking clarity in the ambiguity of new frontiers. My path has taken me from developing satellite guidance systems at Lockheed Martin to engineering next-generation wireless hardware at Tesla, each experience reinforcing my belief in technology as a powerful lever for human potential.
               </p>
             </div>
           </section>
@@ -29,15 +57,6 @@ export default function About() {
               <p>Clarity in Ambiguity</p>
               <p>Building Interesting Things with Interested People</p>
               <p>Tangible Impact on the World Around Me</p>
-            </div>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-3xl font-medium tracking-tight">Now</h2>
-            <div className="space-y-4 text-lg leading-relaxed">
-              <p>
-                Currently in Seattle, building cloud infrastructure at Microsoft. Reading &ldquo;Stranger in a Strange Land&rdquo;. Thinking about AI-native workflows, techno-minimalism, and the future of interfaces.
-              </p>
             </div>
           </section>
 

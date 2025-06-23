@@ -11,8 +11,8 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl font-light leading-tight">
             Miles Nash
           </h1>
-          <p className="mt-2 text-lg text-neutral-600">
-            Technical Program Manager. Systems Thinker. Builder.
+          <p className="text-lg text-neutral-700 max-w-2xl mx-auto">
+            Technical Program Manager. Systems Thinker. Engineer.
           </p>
         </header>
 
@@ -36,8 +36,8 @@ export default function Home() {
           </section>
 
           <section>
-            <Link href="/philosophy" className="block no-underline text-black hover:no-underline">
-              <h2 className="text-2xl font-light tracking-tight text-black hover:text-neutral-600 transition-colors">/principles</h2>
+            <Link href="/mantras" className="block no-underline text-black hover:no-underline">
+              <h2 className="text-2xl font-light tracking-tight text-black hover:text-neutral-600 transition-colors">/mantras</h2>
             </Link>
           </section>
         </div>

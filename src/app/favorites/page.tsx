@@ -18,7 +18,7 @@ export default function Favorites() {
     "Project Hail Mary — Andy Weir",
     "Liftoff — Eric Berger",
     "Range — David Epstein",
-    "The Hitchhiker&apos;s Guide to the Galaxy — Douglas Adams",
+    "The Hitchhiker's Guide to the Galaxy — Douglas Adams",
     "Algorithms to Live By — Brian Christian & Tom Griffiths",
     "The Prince of Milk — Exurb1a",
     "Just Mercy — Bryan Stevenson",
@@ -29,11 +29,6 @@ export default function Favorites() {
     "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future — Ashlee Vance",
     "1984 — George Orwell",
     "The Great Gatsby — F. Scott Fitzgerald"
-  ]
-
-  const movies = [
-    // Add your favorite movies here
-    "Coming soon..."
   ]
 
   const essays = [
@@ -50,7 +45,7 @@ export default function Favorites() {
 
   const videos = [
     "Exurb1a YouTube Channel — Philosophy & Science",
-    "How It&apos;s Made — Manufacturing Documentary Series",
+    "How It's Made — Manufacturing Documentary Series",
   ]
 
   return (
@@ -119,20 +114,6 @@ export default function Favorites() {
             {videos.map((video, index) => (
               <div key={index} className="font-mono text-sm leading-relaxed">
                 {video}
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Movies Section */}
-        <section className="space-y-6">
-          <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
-            Movies
-          </h2>
-          <div className="grid gap-3">
-            {movies.map((movie, index) => (
-              <div key={index} className="font-mono text-sm leading-relaxed text-neutral-500">
-                {movie}
               </div>
             ))}
           </div>

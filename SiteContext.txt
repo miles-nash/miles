@@ -1,14 +1,13 @@
-
 🧑‍💻 Name: Miles Nash
 🏕 Tagline: Finding clarity in ambiguity — building at the intersection of hardware, systems, and spirit.
 
 👋 Introduction
-Hi, I'm Miles — a builder, tinkerer, and technical program manager passionate about shaping the future of physical technology and intelligent systems. From Colorado roots and outdoor adventures to managing Tesla vehicle programs and exploring AI at Microsoft, my journey is defined by curiosity, execution, and a drive to make ideas real.
+Hi, I'm Miles — an Engineer, tinkerer, and technical program manager passionate about shaping the future of physical technology and intelligent systems. From Colorado roots and outdoor adventures to managing Tesla vehicle programs and exploring AI at Microsoft, my journey is defined by curiosity, execution, and a drive to make ideas real.
 
 🛠 Projects
 Selected highlights. Full list on the Projects page.
 
-- People’s Prompt — A creative AI zine & community project exploring public sentiment on AI. → peoplesprompt.org
+- People's Prompt — A creative AI zine & community project exploring public sentiment on AI. → peoplesprompt.org
 - Hovercraft Hackathon — Built a working hovercraft at Lockheed Martin, winning first place and earning three summer internships.
 - High School Robotics Club — Founded and scaled to 30+ members, raised $12K+ funding, podiumed at State in 2 years.
 - Hands-Free Copilot — An experimental desktop copilot with AI-driven task automation and voice interface.
@@ -20,10 +19,10 @@ Selected highlights. Full list on the Projects page.
 - UC Berkeley (EECS) — Deep grounding in embedded systems, TCP/IP stacks, hardware/software integration, and ethics of technology.
 - Lockheed Martin — Three summers in advanced systems, catalyzed by a student-led hovercraft competition.
 
-My work spans hardware, systems, and product leadership — blending engineering execution with a designer's intuition and a strategist’s mindset.
+My work spans hardware, systems, and product leadership — blending engineering execution with a designer's intuition and a strategist's mindset.
 
 🧭 Philosophy & Design Ethos
-“Form follows clarity.”
+"Form follows clarity."
 This site is a minimalist digital studio — a thought archive, personal lab notebook, and philosophical sketchpad. Inspired by Gwern.net, MIT Media Lab, and Harvard GSD, it reflects an ongoing, living process. I believe in:
 
 - Content over container
@@ -35,11 +34,11 @@ This site is a minimalist digital studio — a thought archive, personal lab not
 I build not just for utility, but for meaning. My compass is curiosity. My map is iterative failure. My north star is clarity.
 
 🧠 Inspiration & Quotes (selected)
-- “The magic you are looking for is in the work you have been avoiding.”
-- “Clarity doesn’t come from thinking. It comes from doing.”
-- “Desire is suffering — focus on one desire. You will get it.”
-- “Courage is in far shorter supply than genius.”
-- “Only I can stop me.”
-- “We act as though comfort and luxury were the chief requirements of life, when all we need is something to be enthusiastic about.”
-- “Innovation through ignorance.”
-- “Your trust in your instincts and excitement are what resonate with others.”
+- "The magic you are looking for is in the work you have been avoiding."
+- "Clarity doesn't come from thinking. It comes from doing."
+- "Desire is suffering — focus on one desire. You will get it."
+- "Courage is in far shorter supply than genius."
+- "Only I can stop me."
+- "We act as though comfort and luxury were the chief requirements of life, when all we need is something to be enthusiastic about."
+- "Innovation through ignorance."
+- "Your trust in your instincts and excitement are what resonate with others."

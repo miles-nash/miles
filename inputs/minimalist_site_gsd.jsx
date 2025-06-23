@@ -10,7 +10,7 @@ export default function Home() {
             Miles Nash
           </h1>
           <p className="mt-2 text-lg text-neutral-700">
-            Technical Program Manager. Systems Thinker. Builder of Beautiful Things.
+            Technical Program Manager. Systems Thinker. Engineer of Beautiful Things.
           </p>
         </header>
 
@@ -24,15 +24,15 @@ export default function Home() {
         <section className="space-y-4">
           <h2 className="text-2xl font-medium tracking-tight">/essays</h2>
           <ul className="list-disc pl-6 text-base text-neutral-800">
-            <li>“The Interface is the Ideology” — a look at how UI reflects power structures.</li>
-            <li>“Build Tools, Not Empires” — reflections on scalable creativity in the age of AI.</li>
+            <li>"The Interface is the Ideology" — a look at how UI reflects power structures.</li>
+            <li>"Build Tools, Not Empires" — reflections on scalable creativity in the age of AI.</li>
           </ul>
         </section>
 
         <section className="space-y-4">
           <h2 className="text-2xl font-medium tracking-tight">/projects</h2>
           <ul className="list-disc pl-6 text-base text-neutral-800">
-            <li><strong>People’s Prompt</strong>: an AI zine capturing public sentiment through interactive visual storytelling.</li>
+            <li><strong>People's Prompt</strong>: an AI zine capturing public sentiment through interactive visual storytelling.</li>
             <li><strong>Hands-Free Copilot</strong>: a silent speech recognition prototype for voice-free interaction.</li>
           </ul>
         </section>

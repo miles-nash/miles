@@ -30,11 +30,11 @@ export default function RiscVCpu() {
               Technical Details
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• 3-stage pipeline: Fetch, Decode, Execute</li>
-              <li>• RISC-V RV32I base integer instruction set</li>
-              <li>• 4KB direct-mapped instruction cache</li>
-              <li>• Hazard detection and forwarding logic</li>
-              <li>• Complete VLSI design flow implementation</li>
+              <li>3-stage pipeline: Fetch, Decode, Execute</li>
+              <li>RISC-V RV32I base integer instruction set</li>
+              <li>4KB direct-mapped instruction cache</li>
+              <li>Hazard detection and forwarding logic</li>
+              <li>Complete VLSI design flow implementation</li>
             </ul>
           </div>
 
@@ -43,11 +43,11 @@ export default function RiscVCpu() {
               Design Flow
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• RTL design and functional verification in Verilog</li>
-              <li>• Synthesis using Synopsys Design Compiler</li>
-              <li>• Place-and-route with Cadence Innovus</li>
-              <li>• Timing analysis and optimization</li>
-              <li>• Power analysis and area optimization</li>
+              <li>RTL design and functional verification in Verilog</li>
+              <li>Synthesis using Synopsys Design Compiler</li>
+              <li>Place-and-route with Cadence Innovus</li>
+              <li>Timing analysis and optimization</li>
+              <li>Power analysis and area optimization</li>
             </ul>
           </div>
 
@@ -55,29 +55,9 @@ export default function RiscVCpu() {
             <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
               Technologies & Skills
             </h2>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Verilog
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                RISC-V
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                VLSI
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                ASIC Design
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Computer Architecture
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Cadence
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Synopsys
-              </span>
-            </div>
+            <p className="font-mono text-sm leading-relaxed">
+              Verilog, RISC-V, VLSI, ASIC Design, Computer Architecture, Cadence, Synopsys
+            </p>
           </div>
 
           <div className="space-y-4">

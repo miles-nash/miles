@@ -4,7 +4,7 @@ import FractalMoss from "@/components/FractalMoss";
 import FractalTree from "@/components/FractalTree";
 import FractalVine from "@/components/FractalVine";
 
-export default function Philosophy() {
+export default function Mantras() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-white via-green-50 to-emerald-100 text-black font-serif relative overflow-hidden">
       {/* Background fractal elements */}
@@ -39,10 +39,10 @@ export default function Philosophy() {
         {/* Simple header */}
         <div className="text-center mb-20">
           <h1 className="text-5xl md:text-7xl font-light leading-none tracking-tight mb-6 text-black">
-            principles
+            mantras
           </h1>
           <p className="text-lg text-neutral-700 max-w-2xl mx-auto">
-            A collection of quotes and maxims which resonate with me.
+            A collection of quotes and mantras which resonate with me.
           </p>
         </div>
 
@@ -53,75 +53,27 @@ export default function Philosophy() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            Build for the sake of building.
-          </p>
-          
-          <p className="text-xl leading-relaxed text-black text-center">
-            Curiosity as the driving force.
-          </p>
-          
-          <p className="text-xl leading-relaxed text-black text-center">
-            Technology as leverage for human potential
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Bicycles for the mind.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            Energized by frontier ambiguity, imposes rapid iteration.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Trades stability for accelerated learning.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            Zooms between tech and narrative, rallying collaborators.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Meritocratic optimism tempered by ethics.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            Adventure over comfort.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            Jobs&apos; intuition, Ive&apos;s craft, YC velocity.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Intersection of ambitious tech and human narrative.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
             The people who are crazy enough to think they can change the world are the ones who do.
           </p>
-
+          
           <p className="text-xl leading-relaxed text-black text-center">
             Design is not just what it looks like and feels like. Design is how it works.
           </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            We are as gods and might as well get good at it.
-          </p>
-
+          
           <p className="text-xl leading-relaxed text-black text-center">
             The magic you are looking for is in the work you have been avoiding.
           </p>
 
-          <p className="text-xl leading-relaxed text-black text-center">
-            Clarity doesn&apos;t come from thinking. It comes from doing.
+          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
+            Clarity doesn't come from thinking. It comes from doing.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
             Simplicity is the ultimate sophistication.
           </p>
 
-          <p className="text-xl leading-relaxed text-black text-center">
-            Build your own dreams or you will be hired to build someone else&apos;s.
+          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
+            We are as gods and might as well get good at it.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
@@ -129,19 +81,7 @@ export default function Philosophy() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            You can&apos;t connect the dots looking forward. You can only connect them looking backward.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            A life spent making mistakes is not only more honorable, but useful than a life doing nothing.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
             The genius is the ability to recapture childhood at will.
-          </p>
-
-          <p className="text-xl leading-relaxed text-black text-center">
-            Builders rule the world.
           </p>
         </div>
 

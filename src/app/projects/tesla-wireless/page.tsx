@@ -19,7 +19,7 @@ export default function TeslaWireless() {
         <section className="space-y-6">
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed">
-              Led the development of Tesla&apos;s next-generation passive entry system, enabling seamless vehicle access through advanced wireless communication protocols. 
+              Led the development of Tesla's next-generation passive entry system, enabling seamless vehicle access through advanced wireless communication protocols. 
               Managed DFM, prototype builds, and supplier coordination across three continents, and helped implement 
               a significant cost-reduction.
             </p>
@@ -30,11 +30,11 @@ export default function TeslaWireless() {
               Key Responsibilities
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• Led cross-functional team of 15 engineers across hardware, software, and manufacturing</li>
-              <li>• Managed Design for Manufacturing (DFM) process and prototype builds</li>
-              <li>• Coordinated with suppliers across three continents</li>
-              <li>• Implemented significant cost-reduction initiatives</li>
-              <li>• Oversaw certification and compliance processes</li>
+              <li>Led cross-functional team of 15 engineers across hardware, software, and manufacturing</li>
+              <li>Managed Design for Manufacturing (DFM) process and prototype builds</li>
+              <li>Coordinated with suppliers across three continents</li>
+              <li>Implemented significant cost-reduction initiatives</li>
+              <li>Oversaw certification and compliance processes</li>
             </ul>
           </div>
 
@@ -42,23 +42,9 @@ export default function TeslaWireless() {
             <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
               Technologies & Skills
             </h2>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Program Management
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                DFM
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Hardware Integration
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Supplier Management
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Cross-functional Leadership
-              </span>
-            </div>
+            <p className="font-mono text-sm leading-relaxed">
+              Program Management, DFM, Hardware Integration, Supplier Management, Cross-functional Leadership
+            </p>
           </div>
 
           <div className="space-y-4">
@@ -66,7 +52,7 @@ export default function TeslaWireless() {
               Impact
             </h2>
             <p className="font-mono text-sm leading-relaxed">
-              Successfully delivered a new wireless hardware system that met Tesla&apos;s high standards for 
+              Successfully delivered a new wireless hardware system that met Tesla's high standards for 
               performance and reliability. The project demonstrated the ability to manage complex, 
               multi-disciplinary engineering programs at scale.
             </p>

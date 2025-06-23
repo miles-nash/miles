@@ -29,11 +29,11 @@ export default function CS61Classify() {
               Project Overview
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• Implemented neural network inference in pure RISC-V assembly</li>
-              <li>• Handwritten digit classification using MNIST dataset</li>
-              <li>• Pre-trained neural network weights and architecture</li>
-              <li>• Matrix operations and activation functions in assembly</li>
-              <li>• Memory management and optimization techniques</li>
+              <li>Implemented neural network inference in pure RISC-V assembly</li>
+              <li>Handwritten digit classification using MNIST dataset</li>
+              <li>Pre-trained neural network weights and architecture</li>
+              <li>Matrix operations and activation functions in assembly</li>
+              <li>Memory management and optimization techniques</li>
             </ul>
           </div>
 
@@ -42,11 +42,11 @@ export default function CS61Classify() {
               Technical Implementation
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• RISC-V assembly language programming</li>
-              <li>• Neural network forward pass implementation</li>
-              <li>• Matrix multiplication and vector operations</li>
-              <li>• Activation functions (ReLU, softmax)</li>
-              <li>• Memory layout and data structure optimization</li>
+              <li>RISC-V assembly language programming</li>
+              <li>Neural network forward pass implementation</li>
+              <li>Matrix multiplication and vector operations</li>
+              <li>Activation functions (ReLU, softmax)</li>
+              <li>Memory layout and data structure optimization</li>
             </ul>
           </div>
 
@@ -54,26 +54,9 @@ export default function CS61Classify() {
             <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
               Technologies & Skills
             </h2>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Assembly
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                RISC-V
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Neural Networks
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Low-Level Programming
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Computer Architecture
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Machine Learning
-              </span>
-            </div>
+            <p className="font-mono text-sm leading-relaxed">
+              Assembly, RISC-V, Neural Networks, Low-Level Programming, Computer Architecture, Machine Learning
+            </p>
           </div>
 
           <div className="space-y-4">

@@ -29,24 +29,24 @@ export default function IoTSmartFan() {
               Hardware Components
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• ESP32 microcontroller for wireless connectivity and control</li>
-              <li>• 8x8 thermal camera for heat mapping and detection</li>
-              <li>• Ambient temperature sensor for environmental monitoring</li>
-              <li>• DC motor control for fan speed regulation</li>
-              <li>• Power management and voltage regulation</li>
+              <li>ESP32 microcontroller for wireless connectivity and control</li>
+              <li>8x8 thermal camera for heat mapping and detection</li>
+              <li>Ambient temperature sensor for environmental monitoring</li>
+              <li>DC motor control for fan speed regulation</li>
+              <li>Power management and voltage regulation</li>
             </ul>
           </div>
 
           <div className="space-y-4">
             <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
-              Software Features
+              Software & Algorithms
             </h2>
             <ul className="space-y-2 font-mono text-sm leading-relaxed">
-              <li>• MQTT protocol for IoT communication</li>
-              <li>• Real-time thermal imaging and analysis</li>
-              <li>• PID control loop for temperature-based fan speed</li>
-              <li>• WiFi connectivity and remote monitoring</li>
-              <li>• Data logging and analytics</li>
+              <li>MQTT protocol for IoT communication</li>
+              <li>Real-time thermal imaging and analysis</li>
+              <li>PID control loop for temperature-based fan speed</li>
+              <li>WiFi connectivity and remote monitoring</li>
+              <li>Data logging and analytics</li>
             </ul>
           </div>
 
@@ -54,26 +54,9 @@ export default function IoTSmartFan() {
             <h2 className="text-2xl font-light tracking-tight text-black border-b pb-2">
               Technologies & Skills
             </h2>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                IoT
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                ESP32
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                MQTT
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Embedded Systems
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                C++
-              </span>
-              <span className="bg-neutral-100 text-neutral-700 font-mono text-sm px-2 py-1 rounded">
-                Control Systems
-              </span>
-            </div>
+            <p className="font-mono text-sm leading-relaxed">
+              IoT, Embedded Systems, C++, Python, MQTT, PID Control, Thermal Imaging, ESP32
+            </p>
           </div>
 
           <div className="space-y-4">

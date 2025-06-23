@@ -4,15 +4,13 @@ export default function Projects() {
   const projects = [
     {
       title: "Model Y Passive Entry",
-      link: "/projects/tesla-wireless"
+      link: "/projects/tesla-wireless",
+      starred: true
     },
     {
       title: "3-Stage RISC-V CPU",
-      link: "/projects/risc-v-cpu"
-    },
-    {
-      title: "Satellite Guidance System",
-      link: "/projects/satellite-guidance"
+      link: "/projects/risc-v-cpu",
+      starred: true
     },
     {
       title: "IoT Smart Fan",
@@ -21,6 +19,10 @@ export default function Projects() {
     {
       title: "CS61Classify",
       link: "/projects/cs61classify"
+    },
+    {
+      title: "Satellite Guidance System",
+      link: "/projects/satellite-guidance"
     },
     {
       title: "NASA Hunch Trash Ejection System",
@@ -39,7 +41,8 @@ export default function Projects() {
     {
       title: "3D Printer Monitoring with Alexa and Arduino",
       link: "https://www.hackster.io/milesnash_/3d-printer-monitoring-with-alexa-and-arduino-024292",
-      external: true
+      external: true,
+      starred: true
     },
     {
       title: "Multi-functional Display for Weather, Time & Date",
@@ -47,7 +50,7 @@ export default function Projects() {
       external: true
     },
     {
-      title: "New Year&apos;s Countdown",
+      title: "New Year's Countdown Display",
       link: "https://www.hackster.io/milesnash_/new-year-s-countdown-aeefff",
       external: true
     },
@@ -68,25 +71,30 @@ export default function Projects() {
           <h1 className="text-4xl md:text-6xl font-light leading-tight mt-4">
             Outputs
           </h1>
+          <p className="mt-2 text-lg text-neutral-700">
+            Projects, experiments, and things I've built.
+          </p>
         </header>
 
-        <div className="space-y-4">
+        <div className="grid gap-4">
           {projects.map((project, index) => (
-            <div key={index}>
-              <Link 
-                href={project.link} 
-                className="block group"
-                target={project.external ? "_blank" : undefined}
-                rel={project.external ? "noopener noreferrer" : undefined}
-              >
-                <h2 className="text-lg font-light tracking-tight text-black group-hover:text-neutral-600 transition-colors">
-                  {project.title}
-                  {project.external && (
-                    <span className="text-xs text-neutral-400 ml-2">↗</span>
-                  )}
-                </h2>
-              </Link>
-            </div>
+            <Link 
+              key={index}
+              href={project.link} 
+              className="block group"
+              target={project.external ? "_blank" : undefined}
+              rel={project.external ? "noopener noreferrer" : undefined}
+            >
+              <div className="font-mono text-base leading-relaxed text-black group-hover:text-neutral-600 transition-colors py-2">
+                {project.starred && (
+                  <span className="text-amber-400 mr-3">★</span>
+                )}
+                {project.title}
+                {project.external && (
+                  <span className="text-xs text-neutral-400 ml-3">↗</span>
+                )}
+              </div>
+            </Link>
           ))}
         </div>
 
