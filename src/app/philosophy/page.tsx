@@ -89,7 +89,7 @@ export default function Philosophy() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            Jobs' intuition, Ive's craft, YC velocity.
+            Jobs&apos; intuition, Ive&apos;s craft, YC velocity.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
@@ -113,7 +113,7 @@ export default function Philosophy() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            Clarity doesn't come from thinking. It comes from doing.
+            Clarity doesn&apos;t come from thinking. It comes from doing.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
@@ -121,7 +121,7 @@ export default function Philosophy() {
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            Build your own dreams or you will be hired to build someone else's.
+            Build your own dreams or you will be hired to build someone else&apos;s.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">

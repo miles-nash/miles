@@ -18,7 +18,7 @@ export default function Favorites() {
     "Project Hail Mary — Andy Weir",
     "Liftoff — Eric Berger",
     "Range — David Epstein",
-    "The Hitchhiker's Guide to the Galaxy — Douglas Adams",
+    "The Hitchhiker&apos;s Guide to the Galaxy — Douglas Adams",
     "Algorithms to Live By — Brian Christian & Tom Griffiths",
     "The Prince of Milk — Exurb1a",
     "Just Mercy — Bryan Stevenson",
@@ -50,7 +50,7 @@ export default function Favorites() {
 
   const videos = [
     "Exurb1a YouTube Channel — Philosophy & Science",
-    "How It's Made — Manufacturing Documentary Series",
+    "How It&apos;s Made — Manufacturing Documentary Series",
   ]
 
   return (

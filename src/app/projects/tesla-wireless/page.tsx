@@ -66,7 +66,7 @@ export default function TeslaWireless() {
               Impact
             </h2>
             <p className="font-mono text-sm leading-relaxed">
-              Successfully delivered a new wireless hardware system that met Tesla's high standards for 
+              Successfully delivered a new wireless hardware system that met Tesla&apos;s high standards for 
               performance and reliability. The project demonstrated the ability to manage complex, 
               multi-disciplinary engineering programs at scale.
             </p>

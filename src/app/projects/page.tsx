@@ -47,7 +47,7 @@ export default function Projects() {
       external: true
     },
     {
-      title: "New Year's Countdown",
+      title: "New Year&apos;s Countdown",
       link: "https://www.hackster.io/milesnash_/new-year-s-countdown-aeefff",
       external: true
     },
