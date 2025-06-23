@@ -41,28 +41,27 @@ export default function Philosophy() {
           <h1 className="text-5xl md:text-7xl font-light leading-none tracking-tight mb-6 text-black">
             principles
           </h1>
+          <p className="text-lg text-neutral-700 max-w-2xl mx-auto">
+            A collection of quotes and maxims which resonate with me.
+          </p>
         </div>
 
         {/* Individual insights - subtle variations */}
         <div className="max-w-3xl mx-auto space-y-8">
           <p className="text-xl leading-relaxed text-black text-center">
-            Build for the sake of building.
+            Stay Hungry, Stay Foolish.
           </p>
-          
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Explore for the sake of exploring.
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            Build for the sake of building.
           </p>
           
           <p className="text-xl leading-relaxed text-black text-center">
             Curiosity as the driving force.
           </p>
           
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Most alive creating—TCP stacks, robotics, zines.
-          </p>
-
           <p className="text-xl leading-relaxed text-black text-center">
-            "Technology as leverage for human potential"
+            Technology as leverage for human potential
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
@@ -89,24 +88,60 @@ export default function Philosophy() {
             Adventure over comfort.
           </p>
 
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Build → Learn → Share.
-          </p>
-
           <p className="text-xl leading-relaxed text-black text-center">
             Jobs' intuition, Ive's craft, YC velocity.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Colorado outdoors.
+            Intersection of ambitious tech and human narrative.
           </p>
 
           <p className="text-xl leading-relaxed text-black text-center">
-            "How It's Made" aesthetic—raw materials transform through process.
+            The people who are crazy enough to think they can change the world are the ones who do.
           </p>
 
-          <p className="text-xl leading-relaxed text-black text-center max-w-2xl mx-auto">
-            Intersection of ambitious tech and human narrative.
+          <p className="text-xl leading-relaxed text-black text-center">
+            Design is not just what it looks like and feels like. Design is how it works.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            We are as gods and might as well get good at it.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            The magic you are looking for is in the work you have been avoiding.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            Clarity doesn't come from thinking. It comes from doing.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            Simplicity is the ultimate sophistication.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            Build your own dreams or you will be hired to build someone else's.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            The brave may not live forever, but the cautious do not live at all.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            You can't connect the dots looking forward. You can only connect them looking backward.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            A life spent making mistakes is not only more honorable, but useful than a life doing nothing.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            The genius is the ability to recapture childhood at will.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black text-center">
+            Builders rule the world.
           </p>
         </div>
 

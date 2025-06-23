@@ -15,7 +15,6 @@ export default function Favorites() {
     "Why We Work — Barry Schwartz",
     "Crying in H Mart — Michelle Zauner",
     "The Alchemist — Paulo Coelho",
-    "On Wings of a Lion — Susan Wakeford Angard",
     "Project Hail Mary — Andy Weir",
     "Liftoff — Eric Berger",
     "Range — David Epstein",
@@ -40,7 +39,6 @@ export default function Favorites() {
   const essays = [
     "Paul Graham Essays — Various",
     "Whole Earth Catalog — Counterculture Resource Guide",
-    "Coming soon..."
   ]
 
   const creators = [
@@ -53,7 +51,6 @@ export default function Favorites() {
   const videos = [
     "Exurb1a YouTube Channel — Philosophy & Science",
     "How It's Made — Manufacturing Documentary Series",
-    "Coming soon..."
   ]
 
   return (
