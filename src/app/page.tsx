@@ -45,7 +45,7 @@ export default function Home() {
 
         {/* Intro Paragraph */}
         <p className="text-xl text-neutral-800 mb-20 max-w-2xl">
-          I'm a technical program manager and hardware enthusiast focused on building tools, experiences, and environments that bridge the physical and digital. This site is my digital studio — part archive, part playground, and a window into what I'm thinking, building, and reading.
+          Berkeley EECS student who has spent time in aerospace, shipped mass production hardware for Tesla, and always stays close to the hardware. I turn ideas into scalable systems, blending rigorous engineering with bold product vision to push what technology can do next.
         </p>
 
         {/* Terminal Prompt with blinking cursor */}
