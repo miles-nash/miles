@@ -67,48 +67,43 @@ export default function Projects() {
   ];
 
   return (
-    <main className="min-h-screen bg-white text-black font-serif p-6 md:p-16">
-      <div className="max-w-4xl mx-auto space-y-12">
-        <header className="border-b pb-6">
-          <Link href="/" className="text-sm text-neutral-500 hover:text-black transition-colors">
-            ← Back home
-          </Link>
-          <h1 className="text-4xl md:text-6xl font-light leading-tight mt-4">
-            Outputs
-          </h1>
-          <p className="mt-2 text-lg text-neutral-700">
-            Projects, experiments, and things I&apos;ve built.
-          </p>
-        </header>
+    <>
+      <header className="border-b pb-6">
+        <h1 className="text-4xl md:text-6xl font-light leading-tight mt-4">
+          Projects
+        </h1>
+        <p className="mt-2 text-lg text-neutral-700">
+          Projects, experiments, and things I've built.
+        </p>
+      </header>
 
-        <div className="grid gap-4">
-          {projects.map((project, index) => (
-            <Link 
-              key={index}
-              href={project.link} 
-              className="block group"
-              target={project.external ? "_blank" : undefined}
-              rel={project.external ? "noopener noreferrer" : undefined}
-            >
-              <div className="font-mono text-base leading-relaxed text-black group-hover:text-neutral-600 transition-colors py-2">
-                {project.starred && (
-                  <span className="text-amber-400 mr-3">★</span>
-                )}
-                {project.title}
-                {project.external && (
-                  <span className="text-xs text-neutral-400 ml-3">↗</span>
-                )}
-              </div>
-            </Link>
-          ))}
-        </div>
-
-        <footer className="border-t pt-6 text-sm text-neutral-500">
-          <Link href="/" className="hover:underline">
-            ← Back home
+      <div className="grid gap-4">
+        {projects.map((project, index) => (
+          <Link 
+            key={index}
+            href={project.link} 
+            className="block group"
+            target={project.external ? "_blank" : undefined}
+            rel={project.external ? "noopener noreferrer" : undefined}
+          >
+            <div className="font-mono text-base leading-relaxed text-black group-hover:text-neutral-600 transition-colors py-2">
+              {project.starred && (
+                <span className="text-amber-400 mr-3"></span>
+              )}
+              {project.title}
+              {project.external && (
+                <span className="text-xs text-neutral-400 ml-3"></span>
+              )}
+            </div>
           </Link>
-        </footer>
+        ))}
       </div>
-    </main>
+
+      <footer className="border-t pt-6 text-sm text-neutral-500">
+        <Link href="/" className="hover:underline">
+           Back home
+        </Link>
+      </footer>
+    </>
   );
 } 

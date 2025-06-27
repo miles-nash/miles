@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from 'next/link';
+import React from 'react';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +26,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="flex min-h-screen bg-white text-black font-sans">
+          {/* Sidebar */}
+          <aside className="w-64 min-h-screen px-8 py-12 bg-white fixed left-0 top-0 flex flex-col items-start">
+            <Link href="/" className="mt-4 mb-16 block cursor-pointer focus:outline-none">
+              <h1 className="text-[3.5rem] font-extrabold leading-none">Miles Nash</h1>
+            </Link>
+            <nav className="flex flex-col gap-20 text-[1.375rem] font-normal leading-none">
+              <Link href="/about" className="hover:underline">/about</Link>
+              <span className="h-4" />
+              <Link href="/favorites" className="hover:underline">/inputs</Link>
+              <span className="h-4" />
+              <Link href="/projects" className="hover:underline">/projects</Link>
+              <span className="h-4" />
+              <Link href="/work" className="hover:underline">/work</Link>
+              <span className="h-4" />
+              <Link href="/mantras" className="hover:underline">/mantras</Link>
+            </nav>
+          </aside>
+          {/* Main Content */}
+          <main className="flex-1 ml-64 flex flex-col items-start justify-center py-8 pt-64">
+            <div className="w-1/2 mx-auto flex flex-col items-start gap-16">
+              {children}
+            </div>
+          </main>
+        </div>
       </body>
     </html>
   );
