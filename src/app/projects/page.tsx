@@ -73,7 +73,7 @@ export default function Projects() {
           Projects
         </h1>
         <p className="mt-2 text-lg text-neutral-700">
-          Projects, experiments, and things I've built.
+          Projects, experiments, and things I&apos;ve built.
         </p>
       </header>
 

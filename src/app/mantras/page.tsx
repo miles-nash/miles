@@ -31,7 +31,7 @@ export default function Mantras() {
           </p>
 
           <p className="text-xl leading-relaxed text-black max-w-2xl">
-            Clarity doesn't come from thinking. It comes from doing.
+            Clarity doesn&apos;t come from thinking. It comes from doing.
           </p>
 
           <p className="text-xl leading-relaxed text-black">
@@ -48,6 +48,10 @@ export default function Mantras() {
 
           <p className="text-xl leading-relaxed text-black">
             The genius is the ability to recapture childhood at will.
+          </p>
+
+          <p className="text-xl leading-relaxed text-black">
+            I&apos;m not here to be right, I&apos;m here to get it right.
           </p>
         </div>
 
